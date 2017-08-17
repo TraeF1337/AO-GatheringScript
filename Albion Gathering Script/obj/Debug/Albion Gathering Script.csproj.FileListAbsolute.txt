@@ -19,7 +19,7 @@ C:\Users\sidco\OneDrive\Dokumente\GitHub\V1.4\Albion Gathering Script\bin\Debug\
 C:\Users\sidco\OneDrive\Dokumente\GitHub\V1.4\Albion Gathering Script\obj\Debug\Albion Gathering Script.csprojResolveAssemblyReference.cache
 C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\bin\Debug\AO-Script-API.dll
 C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\obj\Debug\Albion Gathering Script.csprojResolveAssemblyReference.cache
-C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\bin\Debug\Albion Gathering Script(modified) v x.y.dll
-C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\bin\Debug\Albion Gathering Script(modified) v x.y.pdb
-C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\obj\Debug\Albion Gathering Script(modified) v x.y.dll
-C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\obj\Debug\Albion Gathering Script(modified) v x.y.pdb
+C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\bin\Debug\Albion Gathering Script(AllstarsEdition) v x.y.dll
+C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\bin\Debug\Albion Gathering Script(AllstarsEdition) v x.y.pdb
+C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\obj\Debug\Albion Gathering Script(AllstarsEdition) v x.y.dll
+C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\obj\Debug\Albion Gathering Script(AllstarsEdition) v x.y.pdb
