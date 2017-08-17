@@ -1,17 +1,17 @@
 # AO-GatheringScript
-# Based on Ennui AIO-Gathering Script
+Based on Ennui AIO-Gathering Script
 
-#Features
--
--
--
-
-#Known Bugs
+# Features
 -
 -
 -
 
-#Credits
+# Known Bugs
+-
+-
+-
+
+# Credits
 - Demmonic
 - Madmonk
 - bobbybobby
