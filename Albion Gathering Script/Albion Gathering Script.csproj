@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Ennui.Script.Official</RootNamespace>
-    <AssemblyName>Albion Gathering Script%28VaultFix+WeightFix%29 v1.5</AssemblyName>
+    <AssemblyName>Albion Gathering Script%28modified%29 v x.y</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
