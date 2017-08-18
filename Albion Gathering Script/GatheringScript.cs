@@ -78,25 +78,26 @@ namespace Ennui.Script.Official
         {
             if (config.debugInfo)
             {
+                var theEqualizer = Game.ScreenSize.X - 265;
                 g.SetColor(new Color(0.3f, 0.3f, 0.3f, 1.0f));
-                g.FillRect(15, 100, 265, 325);
+                //g.FillRect(theEqualizer - 5, 100, 265, 325);
                 g.SetColor(new Color(1.0f, 1.0f, 1.0f, 1.0f));
-                g.DrawString("Albion Ennui Gatherer", 20, 100);
-                g.DrawString(string.Format("Runtime: {0}", Time.FormatElapsed(timer.ElapsedMs)), 20, 115);
-                g.DrawString(string.Format("State: {0}", context.State), 20, 130);
-                g.DrawString(string.Format("Max hold weight: {0}", config.MaxHoldWeight), 20, 145);
+                g.DrawString("Albion Ennui Gatherer", theEqualizer, 100);
+                g.DrawString(string.Format("Runtime: {0}", Time.FormatElapsed(timer.ElapsedMs)), theEqualizer, 115);
+                g.DrawString(string.Format("State: {0}", context.State), theEqualizer, 130);
+                g.DrawString(string.Format("Max hold weight: {0}", config.MaxHoldWeight), theEqualizer, 145);
                 //g.DrawString(string.Format("City cluster: {0}", config.CityClusterName), 20, 160);
                 //g.DrawString(string.Format("Resource cluster: {0}", config.ResourceClusterName), 20, 175);
-                g.DrawString(string.Format("Bank cluster: {0}", config.VaultClusterName), 20, 160);
-                g.DrawString(string.Format("Repair cluster: {0}", config.RepairClusterName), 20, 175);
-                g.DrawString(string.Format("Resource cluster: {0}", config.ResourceClusterName), 20, 190);
-                g.DrawString(string.Format("Skip Repairing: {0}", config.skipRepairing), 20, 205);
-                g.DrawString(string.Format("Current Weight: {0}", config.currentWeight), 20, 220);
-                g.DrawString(string.Format("Prioritize Roam Point: {0}", config.roamPointFirst), 20, 235);
-                g.DrawString(string.Format("Repair Waypoints Enabled: {0}", config.enableRepairWayPoints), 20, 250);
-                g.DrawString(string.Format("Blacklisted Nodes: {0}", config.blackList), 20, 265);
-                g.DrawString(string.Format("Distance to next node: {0}", config.dist), 20, 280);
-                g.DrawString(string.Format("MobCamps: {0}", config.mobCamps.Count), 20, 295);
+                g.DrawString(string.Format("Bank cluster: {0}", config.VaultClusterName), theEqualizer, 160);
+                g.DrawString(string.Format("Repair cluster: {0}", config.RepairClusterName), theEqualizer, 175);
+                g.DrawString(string.Format("Resource cluster: {0}", config.ResourceClusterName), theEqualizer, 190);
+                g.DrawString(string.Format("Skip Repairing: {0}", config.skipRepairing), theEqualizer, 205);
+                g.DrawString(string.Format("Current Weight: {0}", config.currentWeight), theEqualizer, 220);
+                g.DrawString(string.Format("Prioritize Roam Point: {0}", config.roamPointFirst), theEqualizer, 235);
+                g.DrawString(string.Format("Repair Waypoints Enabled: {0}", config.enableRepairWayPoints), theEqualizer, 250);
+                g.DrawString(string.Format("Blacklisted Nodes: {0}", config.blackList), theEqualizer, 265);
+                g.DrawString(string.Format("Distance to next node: {0}", config.dist), theEqualizer, 280);
+                g.DrawString(string.Format("MobCamps: {0}", config.mobCamps.Count), theEqualizer, 295);
                 if (config.ResourceClusterName == Game.ClusterName)
                 {
                     foreach (var p in config.RoamPoints)
