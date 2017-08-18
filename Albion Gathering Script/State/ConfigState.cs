@@ -269,7 +269,8 @@ namespace Ennui.Script.Official
                 primaryPanel = Factories.CreateGuiPanel();
                 GuiScene.Add(primaryPanel);
                 primaryPanel.SetSize(300, panelSize);
-                primaryPanel.SetPosition(155, ((screenSize.Y / 2) - 50), 0);
+                //primaryPanel.SetPosition(155, ((screenSize.Y / 2) - 50), 0);
+                primaryPanel.SetPosition((screenSize.X/2) - 50, ((screenSize.Y / 2) - 50), 0);
                 primaryPanel.SetAnchor(new Vector2f(0.0f, 0.0f), new Vector2f(0.0f, 0.0f));
                 primaryPanel.SetPivot(new Vector2f(0.5f, 0.5f));
 				
@@ -642,7 +643,7 @@ namespace Ennui.Script.Official
 				*/
                 
                 // wtf123 Extras
-
+                /*
                 addMobCampButton = Factories.CreateGuiButton();
                 primaryPanel.Add(addMobCampButton);
                 addMobCampButton.SetPosition(-70, (theEqualizer - 400), 0);
@@ -682,7 +683,7 @@ namespace Ennui.Script.Official
                             }
                         }
                     }
-                });
+                });*/
 
                 remAllMobCampButton = Factories.CreateGuiButton();
                 primaryPanel.Add(remAllMobCampButton);

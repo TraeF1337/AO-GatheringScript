@@ -382,6 +382,22 @@ namespace Ennui.Script.Official
                         }
                     }
                 }
+                 if (config.mobCamps.Count > 0)
+                {
+                    foreach (var m in config.mobCamps)
+                    {
+                        var mobCampArea = m.RealVector3().Expand(25, 3, 25);
+                        if (mobCampArea.Contains(harvestableTarget.Location))
+                        {
+                            if (!blacklist.Contains(harvestableTarget.Id))
+                            {
+                                blacklist.Add(harvestableTarget.Id);
+                                Reset();
+                                return 0;
+                            }
+                        }
+                    }
+                }
                 if (harvestableTarget.Type == ResourceType.Fiber)
                 {
                     var area = harvestableTarget.Location.Expand(8, 8, 8);
@@ -552,6 +568,22 @@ namespace Ennui.Script.Official
                             var mobDistanceFromNode = mobTarget.Location.SimpleDistance(ent.Location);
                             var drops = ent.HarvestableDropChain.FilterByTypeSet(SafeTypeSet.BatchConvert(config.TypeSetsToUse)).AsList;
                             if (mobDistanceFromNode < 40 && drops.Count <= 0)
+                            {
+                                blacklist.Add(mobTarget.Id);
+                                Reset();
+                                return 0;
+                            }
+                        }
+                    }
+                }
+                if (config.mobCamps.Count > 0)
+                {
+                    foreach (var m in config.mobCamps)
+                    {
+                        var mobCampArea = m.RealVector3().Expand(25, 3, 25);
+                        if (mobCampArea.Contains(mobTarget.Location))
+                        {
+                            if (!blacklist.Contains(mobTarget.Id))
                             {
                                 blacklist.Add(mobTarget.Id);
                                 Reset();
