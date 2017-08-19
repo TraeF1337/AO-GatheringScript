@@ -246,12 +246,15 @@ namespace Ennui.Script.Official
 			config.skipRepairing = skipRepairingCheckBox.IsSelected();
 			config.roamPointFirst = roamPointFirstCheckBox.IsSelected();
 			config.enableRepairWayPoints = enableRepairWayPointsCheckBox.IsSelected();
+
+            // wtf123 Extras
             config.blacklistEnabled = blacklistCheckBox.IsSelected();
             config.ingnoreMobCampNodes = ignorMobCampNodes.IsSelected();
-
-
+            
             SaveConfig();
+
             config.debugInfo = debugInfoCheckBox.IsSelected();
+
 
             primaryPanel.Destroy();
             parent.EnterState("resolve");
@@ -726,7 +729,7 @@ namespace Ennui.Script.Official
         public override int OnLoop(IScriptEngine se)
         {
             var lpo = Players.LocalPlayer;
-            if (lpo != null && config.MaxHoldWeight < lpo.MaxCarryWeight)
+            if (lpo != null)
                 config.MaxHoldWeight = lpo.MaxCarryWeight;
             return 100;
         }

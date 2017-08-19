@@ -29,14 +29,13 @@ namespace Ennui.Script.Official
             var localPlayer = Players.LocalPlayer;
             if (localPlayer != null)
             {
-                if (config.RepairDest != null && Api.HasBrokenItems() && (config.skipRepairing == false))
+                if (config.RepairDest != null && Api.HasBrokenItems())
                 {
                     parent.EnterState("repair");
                 }
                 else if (localPlayer.TotalHoldWeight >= config.MaxHoldWeight)
                 {
                     parent.EnterState("bank");
-                    Logging.Log("Entering bank state values : " + localPlayer.TotalHoldWeight+ " : "+ config.MaxHoldWeight, LogLevel.Error);
                 }
                 else
                 {
@@ -44,8 +43,13 @@ namespace Ennui.Script.Official
                 }
                 return 0;
             }
+            else
+            {
+                context.State = "Failed to find local player!";
+                return 0;
+            }
 
-            return 10_000;
+           // return 10_000;
         }
     }
 }

@@ -14,6 +14,7 @@ namespace Ennui.Script.Official
         public bool debugInfo = true;
         public bool blacklistEnabled = true;
         public bool ingnoreMobCampNodes = true;
+        public float bankOnHoldPercentage = 1;
 
         //public string CityClusterName = "";
         public SafeMapArea ResourceArea;

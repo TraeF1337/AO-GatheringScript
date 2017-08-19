@@ -23,3 +23,5 @@ C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Scr
 C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\bin\Debug\Albion Gathering Script(AllstarsEdition) v x.y.pdb
 C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\obj\Debug\Albion Gathering Script(AllstarsEdition) v x.y.dll
 C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\obj\Debug\Albion Gathering Script(AllstarsEdition) v x.y.pdb
+C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\bin\Debug\AO-Script-API.pdb
+C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\obj\Debug\Albion Gathering Script.csproj.CoreCompileInputs.cache

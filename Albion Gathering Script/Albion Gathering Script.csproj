@@ -33,7 +33,7 @@
   <ItemGroup>
     <Reference Include="AO-Script-API, Version=1.0.6.3, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\refs\AO-Script-API.dll</HintPath>
+      <HintPath>..\..\Albion-Script-API\Albion Script API\bin\Debug\AO-Script-API.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

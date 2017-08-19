@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Albion Gathering")]
+[assembly: AssemblyTitle("Albion Gathering Script")]
 [assembly: AssemblyDescription("Gathers resources for you using Ennui's Albion Online bot")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Ennui LLC")]
-[assembly: AssemblyProduct("Albion Gathering")]
+[assembly: AssemblyProduct("Albion Gathering Script")]
 [assembly: AssemblyCopyright("Copyright © Ennui LLC 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.5.11")]
-[assembly: AssemblyFileVersion("1.1.5.11")]
+[assembly: AssemblyVersion("1.1.6.16")]
+[assembly: AssemblyFileVersion("1.1.6.16")]

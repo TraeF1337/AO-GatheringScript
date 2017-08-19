@@ -213,12 +213,35 @@ namespace Ennui.Script.Official
             return useMount;
         }
 
+        private Boolean buffFoodActive()
+        {
+            var buffFoodActive = Players.LocalPlayer.Effects;
+            foreach (var cur in Players.LocalPlayer.Effects)
+            {
+                if (cur.Config.Category == SpellCategory.FoodBuff)
+                    return true;
+            }
+
+            return false;
+        }
+        private void buffFoodApply()
+        {
+            var buffFoodSpell = Players.LocalPlayer.SpellChain.FilterByReady().FilterByTarget(SpellTarget.Self).FilterByCategory(SpellCategory.FoodBuff).First;
+            Players.LocalPlayer.CastOnSelf(buffFoodSpell.Slot);
+        }
         public override int OnLoop(IScriptEngine se)
         {
             var localPlayer = Players.LocalPlayer;
             var localLocation = localPlayer.Location;
 
             // <------------ wtf123 start
+            if (localPlayer != null && localPlayer.IsMounted && config.MaxHoldWeight != localPlayer.MaxCarryWeight)
+                config.MaxHoldWeight = localPlayer.MaxCarryWeight;
+
+            if (!buffFoodActive())
+                buffFoodApply();
+
+
             if (blacklist.Count > 500)
             {
                 blacklist.Clear();
@@ -307,7 +330,7 @@ namespace Ennui.Script.Official
 			config.currentWeight = localPlayer.TotalHoldWeight;
             var currentWeight = config.currentWeight;
             var maxHoldWeight = config.MaxHoldWeight;
-            if (((localPlayer.TotalHoldWeight + 0.0f)/ (config.MaxHoldWeight + 0.0f)) > 1.0f)
+            if (((localPlayer.TotalHoldWeight + 0.0f)/ (config.MaxHoldWeight + 0.0f)) > config.bankOnHoldPercentage)
             {
                 Logging.Log("Local player has too much weight, banking!", LogLevel.Atom);
                 blacklist.Clear();
