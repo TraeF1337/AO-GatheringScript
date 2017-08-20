@@ -1,0 +1,31 @@
+C:\Users\AlphaCasters\Desktop\Albion Bot\V1.4\Albion Gathering Script\bin\Debug\Albion Gathering Script(VaultFix+WeightFix) v1.5.dll
+C:\Users\AlphaCasters\Desktop\Albion Bot\V1.4\Albion Gathering Script\bin\Debug\Albion Gathering Script(VaultFix+WeightFix) v1.5.pdb
+C:\Users\AlphaCasters\Desktop\Albion Bot\V1.4\Albion Gathering Script\bin\Debug\AO-Script-API.dll
+C:\Users\AlphaCasters\Desktop\Albion Bot\V1.4\Albion Gathering Script\obj\Debug\Albion Gathering Script.csprojResolveAssemblyReference.cache
+C:\Users\AlphaCasters\Desktop\Albion Bot\V1.4\Albion Gathering Script\obj\Debug\Albion Gathering Script(VaultFix+WeightFix) v1.5.dll
+C:\Users\AlphaCasters\Desktop\Albion Bot\V1.4\Albion Gathering Script\obj\Debug\Albion Gathering Script(VaultFix+WeightFix) v1.5.pdb
+C:\AlbionBot\AlphaAndSmash\GatherBot\Development\AlbionBot_Ennui\V1.4\Albion Gathering Script\bin\Debug\Albion Gathering Script(VaultFix+WeightFix) v1.5.dll
+C:\AlbionBot\AlphaAndSmash\GatherBot\Development\AlbionBot_Ennui\V1.4\Albion Gathering Script\bin\Debug\Albion Gathering Script(VaultFix+WeightFix) v1.5.pdb
+C:\AlbionBot\AlphaAndSmash\GatherBot\Development\AlbionBot_Ennui\V1.4\Albion Gathering Script\bin\Debug\AO-Script-API.dll
+C:\AlbionBot\AlphaAndSmash\GatherBot\Development\AlbionBot_Ennui\V1.4\Albion Gathering Script\obj\Debug\Albion Gathering Script(VaultFix+WeightFix) v1.5.dll
+C:\AlbionBot\AlphaAndSmash\GatherBot\Development\AlbionBot_Ennui\V1.4\Albion Gathering Script\obj\Debug\Albion Gathering Script(VaultFix+WeightFix) v1.5.pdb
+C:\AlbionBot\AlphaAndSmash\GatherBot\Development\AlbionBot_Ennui\V1.4\Albion Gathering Script\obj\Debug\Albion Gathering Script.csprojResolveAssemblyReference.cache
+C:\Users\sidco\OneDrive\Dokumente\GitHub\V1.4\Albion Gathering Script\bin\Debug\Albion Gathering Script(VaultFix+WeightFix) v1.5.dll
+C:\Users\sidco\OneDrive\Dokumente\GitHub\V1.4\Albion Gathering Script\bin\Debug\Albion Gathering Script(VaultFix+WeightFix) v1.5.pdb
+C:\Users\sidco\OneDrive\Dokumente\GitHub\V1.4\Albion Gathering Script\bin\Debug\AO-Script-API.dll
+C:\Users\sidco\OneDrive\Dokumente\GitHub\V1.4\Albion Gathering Script\obj\Debug\Albion Gathering Script(VaultFix+WeightFix) v1.5.dll
+C:\Users\sidco\OneDrive\Dokumente\GitHub\V1.4\Albion Gathering Script\obj\Debug\Albion Gathering Script(VaultFix+WeightFix) v1.5.pdb
+C:\Users\sidco\OneDrive\Dokumente\GitHub\V1.4\Albion Gathering Script\bin\Debug\AO-Script-API.pdb
+C:\Users\sidco\OneDrive\Dokumente\GitHub\V1.4\Albion Gathering Script\obj\Debug\Albion Gathering Script.csprojResolveAssemblyReference.cache
+C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\bin\Debug\AO-Script-API.dll
+C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\obj\Debug\Albion Gathering Script.csprojResolveAssemblyReference.cache
+C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\bin\Debug\Albion Gathering Script(AllstarsEdition) v x.y.dll
+C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\bin\Debug\Albion Gathering Script(AllstarsEdition) v x.y.pdb
+C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\obj\Debug\Albion Gathering Script(AllstarsEdition) v x.y.dll
+C:\Users\sidco\OneDrive\Dokumente\GitHub\AO-GatheringScript\Albion Gathering Script\obj\Debug\Albion Gathering Script(AllstarsEdition) v x.y.pdb
+C:\Users\George\Desktop\01\TryAgain\AO-GatheringScript-master\Albion Gathering Script\bin\Debug\Albion Gathering Script(AllstarsEdition) v x.y.dll
+C:\Users\George\Desktop\01\TryAgain\AO-GatheringScript-master\Albion Gathering Script\bin\Debug\Albion Gathering Script(AllstarsEdition) v x.y.pdb
+C:\Users\George\Desktop\01\TryAgain\AO-GatheringScript-master\Albion Gathering Script\bin\Debug\AO-Script-API.dll
+C:\Users\George\Desktop\01\TryAgain\AO-GatheringScript-master\Albion Gathering Script\obj\Debug\Albion Gathering Script.csprojResolveAssemblyReference.cache
+C:\Users\George\Desktop\01\TryAgain\AO-GatheringScript-master\Albion Gathering Script\obj\Debug\Albion Gathering Script(AllstarsEdition) v x.y.dll
+C:\Users\George\Desktop\01\TryAgain\AO-GatheringScript-master\Albion Gathering Script\obj\Debug\Albion Gathering Script(AllstarsEdition) v x.y.pdb
